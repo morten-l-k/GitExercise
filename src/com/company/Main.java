@@ -17,12 +17,17 @@ Scanner keyboard = new Scanner(System.in);
           System.out.println("Din alder er: " + age);
         }
 
+        public void extraMethod(){
+          System.out.println("Tester print af extraMethod");
+        }
+
     public static void main(String[] args) {
         Main obj = new Main();
 
           System.out.println("It Works!");
           obj.greet();
           obj.age();
+          obj.extraMethod();
 
     }
 }
