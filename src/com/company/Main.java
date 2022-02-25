@@ -12,7 +12,7 @@ Scanner keyboard = new Scanner(System.in);
           System.out.println("Hej " + name);
         }
 
-        public void askAboutAge(){
+        public void age(){
           System.out.println("Indtast din alder: ");
           int age = keyboard.nextInt();
           System.out.println("Din alder er: " + age);
@@ -23,7 +23,7 @@ Scanner keyboard = new Scanner(System.in);
 
           System.out.println("It Works!");
           obj.greet();
-          obj.askAboutAge();
+          obj.age();
 
     }
 }
