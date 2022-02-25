@@ -20,6 +20,7 @@ Scanner keyboard = new Scanner(System.in);
         public void extraMethod(){
           System.out.println("Tester print af extraMethod");
           age();
+          System.out.println(2 + 2);
         }
 
     public static void main(String[] args) {
