@@ -8,14 +8,22 @@ Scanner keyboard = new Scanner(System.in);
 
         public void greet(){
           System.out.println("Indtast dit navn: ");
-          String sc = keyboard.next();
-          System.out.println("Hej " + sc);
+          String name = keyboard.next();
+          System.out.println("Hej " + name);
         }
+
+        public void askAboutAge(){
+          System.out.println("Indtast din alder: ");
+          int age = keyboard.nextInt();
+          System.out.println("Din alder er: " + age);
+        }
+
     public static void main(String[] args) {
         Main obj = new Main();
 
           System.out.println("It Works!");
           obj.greet();
+          obj.askAboutAge();
 
     }
 }
